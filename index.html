@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top SGX Battle</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      background: radial-gradient(circle at center, #000010, #000000);
+      font-family: 'Orbitron', sans-serif;
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      letter-spacing: 3px;
+      text-shadow: 0 0 15px #00ffff, 0 0 30px #00ccff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: #00ffff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 1rem;
+      color: #dcdcdc;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .features {
+      font-size: 1rem;
+      color: #00ffff;
+      margin-bottom: 30px;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #ffcc00;
+      text-shadow: 0 0 10px #ffcc00;
+    }
+
+    .buy-btn {
+      background: linear-gradient(90deg, #ff0000, #ff9900);
+      color: white;
+      padding: 15px 45px;
+      border: none;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-transform: uppercase;
+    }
+
+    .buy-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 35px rgba(255, 153, 0, 0.9);
+    }
+
+    .glow {
+      animation: glowPulse 3s infinite alternate;
+    }
+
+    @keyframes glowPulse {
+      from { text-shadow: 0 0 10px #00ffff; }
+      to { text-shadow: 0 0 30px #00ccff, 0 0 60px #00ffff; }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glow">TOP SGX BATTLE</h1>
+  <h2>The Official Singapore Free Fire Earning Tournament App</h2>
+
+  <p>
+    Welcome to <strong>SGX Battle</strong> — the most thrilling and trusted 
+    <strong>Free Fire tournament platform</strong> in Singapore.  
+    Here, top players compete for real rewards — powered by advanced gameplay systems 
+    and verified by official gaming partners.
+  </p>
+
+  <div class="features">
+    🔥 Exclusive for Singapore players<br>
+    ⚔️ Official Free Fire Tournament Network<br>
+    💰 Real rewards up to thousands of dollars<br>
+    🏆 Trusted by top gaming YouTubers worldwide
+  </div>
+
+  <div class="price">Price: $400</div>
+  <button class="buy-btn">Buy Now</button>
+</body>
+</html>
