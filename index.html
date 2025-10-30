@@ -18,7 +18,7 @@
       background: radial-gradient(circle at center, #000010, #000000);
       font-family: 'Orbitron', sans-serif;
       color: #ffffff;
-      overflow: hidden;
+      overflow-x: hidden;
     }
 
     h1 {
@@ -85,6 +85,63 @@
       from { text-shadow: 0 0 10px #00ffff; }
       to { text-shadow: 0 0 30px #00ccff, 0 0 60px #00ffff; }
     }
+
+    /* Footer Section */
+    footer {
+      background: #01010a;
+      width: 100%;
+      padding: 40px 10px;
+      margin-top: 60px;
+      text-align: center;
+      border-top: 1px solid rgba(0,255,255,0.2);
+      box-shadow: 0 -2px 20px rgba(0,255,255,0.2);
+    }
+
+    footer h3 {
+      font-size: 1.8rem;
+      color: #00ffff;
+      margin-bottom: 10px;
+      text-shadow: 0 0 15px #00ffff;
+    }
+
+    footer p {
+      color: #cccccc;
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .service-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .service-btn {
+      background: linear-gradient(90deg, #0044ff, #00ccff);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+      transition: all 0.3s;
+    }
+
+    .service-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+    }
+
+    .contact {
+      margin-top: 25px;
+      color: #00ffcc;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
   </style>
 </head>
 <body>
@@ -107,5 +164,23 @@
 
   <div class="price">Price: $400</div>
   <button class="buy-btn">Buy Now</button>
+
+  <!-- Footer -->
+  <footer>
+    <h3>SGX Support & Services</h3>
+    <p>We are available <strong>24/7</strong> to assist you. Choose from our services below to enhance your gaming journey.</p>
+
+    <div class="service-list">
+      <button class="service-btn">🎮 Game Setup Help</button>
+      <button class="service-btn">💰 Withdraw Support</button>
+      <button class="service-btn">⚙️ Account Upgrade</button>
+      <button class="service-btn">📊 Tournament Stats</button>
+      <button class="service-btn">💎 VIP Membership</button>
+    </div>
+
+    <div class="contact">
+      📞 Contact Service 24/7 | ✉️ support@sgxbattle.com
+    </div>
+  </footer>
 </body>
 </html>
